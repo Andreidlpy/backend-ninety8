@@ -7,11 +7,11 @@ const router = Router();
 
 
 const options = {
-    host: 'localhost',
-    port: 3306,
+    host: 'containers-us-west-15.railway.app',
+    port: 5518,
     user: 'root',
-    password: 'root',
-    database: 'clima_app'
+    password: 'y1Jws3UyKz0wPB72f2Cj',
+    database: 'railway',
 }
 
 const sessionStore = new MySQLStore( options )
