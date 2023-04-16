@@ -2,13 +2,8 @@
 
 
 const usuariosGet = ( req, res ) => {
-    req.session.usuario = 'Oscar'
-    req.session.rol = 'Admin'
-    req.session.visitas = req.session.visitas ? ++req.session.visitas : 1
-    console.log(req.sessionID)
     res.json({
         "ok": 'ok',
-        msg: req.session.visitas
     })
 }
 const usuariosDelete = ( req, res ) => {
